@@ -60,7 +60,7 @@ hidden_size = 18
 output_size = len(tags)  # number of different classes or tags
 input_size = len(X_train[0])  # the same length as the all_words
 learning_rate = 0.0001
-num_epochs = 1500
+num_epochs = 1400
 
 dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset,
