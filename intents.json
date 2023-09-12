@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Welcome"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "Which services do you have?",
+        "What kinds of services are there?",
+        "What do you offer?",
+        "What is the profile of the webpage?",
+        "What do you do?"
+      ],
+      "responses": [
+        "We offer an online platform for searching dental clinics and booking appointments in them",
+        "We can help you in searching and booking appointments for dental clinics"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We currently do not have any service that requires any payment, but in the future we will accept VISA, Mastercard and Paypal",
+        "There is nothing you have to pay for",
+        "Our services are free for all"
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "How can I search for any clinic?",
+        "Hot to search ?",
+        "Can I search?"
+      ],
+      "responses": [
+        "You have to log in first to search for clinics with the Search Clinic button or dentists with the Search Dentist button",
+        "After you logged in you can search for dentists and clinics with adequate buttons"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "How can I book an appointment?",
+        "How to book an appointment?",
+        "Can I book an appointment?"
+      ],
+      "responses": [
+        "After you have logged in you have to click on the card that is representing the clinic or dentist to load information about the clinic, and to book appointment",
+        "To book appointment you have to log in and select the card that is representing the clinic or dentist"
+      ]
+    },
+    {
+      "tag": "profile",
+      "patterns": [
+        "How can I delete my profile ?",
+        "Delete registration ?",
+        "Can I cancel my registration ?"
+      ],
+      "responses": [
+        "To delete your profile click on the Profile button which will appear if you move your cursor on displayed email address",
+        "You can delete your profile by hovering your mouse on your email address, click on the Profile button and push Delete Account"
+      ]
+    },
+    {
+      "tag": "delete",
+      "patterns": [
+        "How can I delete an appointment?",
+        "Delete appointment ?",
+        "Can I cancel an appointment ?"
+      ],
+      "responses": [
+        "You can manage your appointments by clicking on the Appointments button, if a clinic registers any change in their availability the connected appointments will be automatically managed and we will send a notification about it for you",
+        "To manage booked appointments click on the Appointments button, on clinic related changes the affected customers will get a notification and the appointments will be automatically managed by us"
+      ]
+    },
+    {
+      "tag": "clinic",
+      "patterns": [
+        "Can I register a clinic?",
+        "Can I delete a clinic ?",
+        "Can I register a leave ?",
+        "Can I register vacation ?"
+      ],
+      "responses": [
+        "Only registered Dentists can create and manage clinics after they have logged in",
+        "You have to register as a Dentist to manage clinics"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "I used to play piano by ear, but now I use my hands."
+      ]
+    }
+  ]
+}
