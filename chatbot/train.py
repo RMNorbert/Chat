@@ -65,7 +65,8 @@ num_epochs = 1400
 dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset,
                           batch_size=batch_size,
-                          shuffle=True)  # ,num_workers=0)  # change for multi processing makes the loading faster
+                          shuffle=True)
+# add this after the shuffle for multiprocessing ,num_workers=0)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = NeuralNet(input_size, hidden_size, output_size)
