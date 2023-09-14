@@ -39,7 +39,9 @@
         "What kinds of services are there?",
         "What do you offer?",
         "What is the profile of the webpage?",
-        "What do you do?"
+        "What do you do?",
+        "Service",
+        "Offer"
       ],
       "responses": [
         "We offer an online platform for searching dental clinics and booking appointments in them",
