@@ -9,7 +9,9 @@
         "Is anyone there?",
         "Hello",
         "Good day",
-        "Welcome"
+        "Welcome",
+        "Good evening",
+        "Good afternoon"
       ],
       "responses": [
         "Hey :-)",
@@ -20,7 +22,12 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have a nice day"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -29,19 +36,31 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "That's good to know"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You are welcome"
+      ]
     },
     {
       "tag": "services",
       "patterns": [
-        "Which services do you have?",
+        "Which services?",
         "What kinds of services are there?",
         "What do you offer?",
         "What is the profile of the webpage?",
         "What do you do?",
-        "Service",
-        "Offer"
+        "What are you offer",
+        "What service",
+        "What offer"
       ],
       "responses": [
         "We offer an online platform for searching dental clinics and booking appointments in them",
@@ -54,7 +73,12 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "Is it free?",
+        "Do i have to pay for anything?",
+        "What's the cost?",
+        "Is there any fee?",
+        "Will i have to pay for anything?"
       ],
       "responses": [
         "We currently do not have any service that requires any payment, but in the future we will accept VISA, Mastercard and Paypal",
@@ -67,7 +91,12 @@
       "patterns": [
         "How can I search for any clinic?",
         "Hot to search ?",
-        "Can I search?"
+        "Can I search?",
+        "Where can I find clinic's?",
+        "Where can I find the dentist I am looking for?",
+        "Can I search for the dentists as well?",
+        "I want to find",
+        "I want to find a dentist"
       ],
       "responses": [
         "You have to log in first to search for clinics with the Search Clinic button or dentists with the Search Dentist button",
@@ -79,7 +108,9 @@
       "patterns": [
         "How can I book an appointment?",
         "How to book an appointment?",
-        "Can I book an appointment?"
+        "Can I book an appointment?",
+        "Where can I book appointments?",
+        "Where to book appointment?"
       ],
       "responses": [
         "After you have logged in you have to click on the card that is representing the clinic or dentist to load information about the clinic, and to book appointment",
@@ -89,9 +120,9 @@
     {
       "tag": "profile",
       "patterns": [
-        "How can I delete my profile ?",
+        "Delete my profile ?",
         "Delete registration ?",
-        "Can I cancel my registration ?"
+        "Cancel my registration ?"
       ],
       "responses": [
         "To delete your profile click on the Profile button which will appear if you move your cursor on displayed email address",
@@ -101,9 +132,9 @@
     {
       "tag": "delete",
       "patterns": [
-        "How can I delete an appointment?",
-        "Delete appointment ?",
-        "Can I cancel an appointment ?"
+        "Delete an appointment?",
+        "Delete appointment?",
+        "Cancel an appointment?"
       ],
       "responses": [
         "You can manage your appointments by clicking on the Appointments button, if a clinic registers any change in their availability the connected appointments will be automatically managed and we will send a notification about it for you",
@@ -113,14 +144,25 @@
     {
       "tag": "clinic",
       "patterns": [
-        "Can I register a clinic?",
-        "Can I delete a clinic ?",
-        "Can I register a leave ?",
-        "Can I register vacation ?"
+        "Register a clinic?",
+        "Delete a clinic ?",
+        "Register a leave ?",
+        "Register vacation ?"
       ],
       "responses": [
         "Only registered Dentists can create and manage clinics after they have logged in",
         "You have to register as a Dentist to manage clinics"
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "What data do you need ?",
+        "Can I login with my Gmail ?"
+      ],
+      "responses": [
+        "You can login with Gmail or register an account with an email by clicking on the register button and filling out the register form. The data needed for the registration will be used for notifications and booking identifications. No data will be used or provided to any third party.",
+        "You can login with Gmail or by registering an account with an email. We dont need your data, except for notifications and booking identifications."
       ]
     },
     {
