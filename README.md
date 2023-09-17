@@ -58,7 +58,7 @@ Follow these instructions to get a copy of the ConvoCat project up and running o
 #### 1. Clone the repository
     
 #### 2. Initial Setup:
-   Comment out the nltk.download('punkt') line in the nltk_utils.py file. This line is responsible for downloading a required package.
+   Comment out the nltk.download('punkt') line in the nltk_utils.py file. This line is responsible for downloading the tokenization model for various languages.
    Create training data by navigating to the project's root chatbot directory in your terminal and running:
         ```
         python3 train.py
