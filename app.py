@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from chatbot.chat import get_response
+from chatbot.responseProvider.responseProvider import get_response
 
 app = Flask(__name__)
 

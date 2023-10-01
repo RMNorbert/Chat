@@ -5,16 +5,17 @@ WORKDIR /app
 
 # Copy the current directory contents into the container at /app
 COPY . /app
+# Copy the intents into the container at /app
+COPY chatbot/data/intents.json /app/data/intents.json
 
-COPY chatbot/intents.json /app/intents.json
-#COPY app.py /app/app.py
 
 # Install any needed packages specified in requirements.txt
 RUN pip install torch nltk numpy flask
 
-# Copy the intents into the container at /app
 
-RUN python chatbot/train.py
+# Train of the modell. Use this if there are any changes in the intents.json file
+# RUN python chatbot/train.py
+
 # Make the port available to the world outside the container
 EXPOSE 5000
 
