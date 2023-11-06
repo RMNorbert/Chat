@@ -1,0 +1,199 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Welcome",
+        "Good evening",
+        "Good afternoon"
+      ],
+      "responses": [
+       "Meow there!",
+       "Meow human, what can I scratch for you?",
+       "Purr, what can I scratch for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Meow, until next time!",
+        "Have a purrfect day!",
+        "Meow back soon!",
+        "Meow, furwell!",
+        "Purr, take care of your human!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "That's good to know"
+      ],
+      "responses": [
+        "Happy to purr!",
+        "Meow pleasure!",
+        "Meowlways here for you!"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "Which services?",
+        "What kinds of services are there?",
+        "What do you offer?",
+        "What is the profile of the webpage?",
+        "What do you do?",
+        "What are you offer",
+        "What service",
+        "What offer"
+      ],
+      "responses": [
+        "Meow, we offer a purrfect platform for finding dental clinics and appointments!",
+        "Meow, we're the cats who connect you with dental clinics!",
+        "Meow're your furry friends for dental appointments!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "Is it free?",
+        "Do i have to pay for anything?",
+        "What's the cost?",
+        "Is there any fee?",
+        "Will i have to pay for anything?"
+      ],
+      "responses": [
+        "Our services are purrfectly free for now.. but we happy to accept treats.",
+        "Meow, it's all on the mouse!",
+        "Purr purr, no need to open your wallet!", "Meow, free as a cat's curiosity!"
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "How can I search for any clinic?",
+        "Hot to search ?",
+        "Can I search?",
+        "Where can I find clinic's?",
+        "Where can I find the dentist I am looking for?",
+        "Can I search for the dentists as well?",
+        "I want to find",
+        "I want to find a dentist"
+      ],
+      "responses": [
+        "Meow, first, find the purrfect button, and then log in like a pro!",
+        "Purr, the buttons are your gateway to discovery after a quick login!",
+        "Purr purr, the world of clinics and dentists awaits after you login!",
+        "Meow, just a few clicks away from cat-tastic searches!"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "How can I book an appointment?",
+        "How to book an appointment?",
+        "Can I book an appointment?",
+        "Where can I book appointments?",
+        "Where to book appointment?"
+      ],
+      "responses": [
+       "Meow, after logging in, pounce on the card to reveal clinic secrets and book your spot!",
+       "Purr, choose the card and make your appointment purr-fectly!",
+       "Meow meow, the card holds the keys to clinic wonders – book with a click!",
+       "Purr purr, card in, appointment out – it's that simple!",
+       "Meow, time to book, just pick the card you desire!"
+      ]
+    },
+    {
+      "tag": "profile",
+      "patterns": [
+        "Delete my profile ?",
+        "Delete registration ?",
+        "Cancel my registration ?"
+      ],
+      "responses": [
+        "Meow, when you're ready to say goodbye, give your email a whisker's touch, and the Profile button will appear. A purr-fect start!",
+        "For a cat-like exit, hover over your email address, click Profile, and choose 'Delete Account'! Meow well!",
+        "To exterminate it, simply meow your cursor over your email address, and the Profile button will appear. Click it and purr-sist on 'Delete Account'!"
+      ]
+    },
+    {
+      "tag": "delete",
+      "patterns": [
+        "Delete an appointment?",
+        "Delete appointment?",
+        "Cancel an appointment?"
+      ],
+      "responses": [
+        "To hold your appointments under your paws, simply tap the Appointments button. If a clinic meows about any changes, we'll whisker away the details and meow at you!",
+        "For appointment control, just click the Appointments button. If a clinic's tune changes, we'll meow-tify you and manage things automatically!",
+        "Meowing appointments is a breeze. Visit Appointments, and if a clinic's mood swings, we'll notify you and take care of the rest!",
+        "Appointments is your destination for control. If clinics change their tune, we'll purr you a notification and manage appointments like a cat on a mission!"
+      ]
+    },
+    {
+      "tag": "clinic",
+      "patterns": [
+        "Register a clinic?",
+        "Delete a clinic ?",
+        "Register a leave ?",
+        "Register vacation ?"
+      ],
+      "responses": [
+        "Meow, only registered Dentists can create and manage clinics. Once they've logged in, they rule the clinic kingdom!",
+        "Purr to be the clinic conductor, register as a Dentist. After logging in, you'll have the clinic crown!",
+        "Meowing anything about a clinic is a cat's game, but only registered Dentists are allowed to play. Get in the game after logging in!",
+        "Purr, to manage clinics, be a Dentist, that's it.",
+        "Once you're logged in, clinics will follow your lead like a line of playful kittens!"
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "What data do you need ?",
+        "Can I login with my Gmail ?"
+      ],
+      "responses": [
+        "You can meow in with Gmail or register an account with an email by clicking on the register button. Fill out the registration form, and your data will be our little secret, used only for notifications and booking purr-poses!",
+        "Whether you prefer Gmail or email, we'll greet you with open paws. We won't ask for much—just what we need for notifications and booking magic!",
+        "Meowin with Gmail or email registration, the choice is yours. Rest assured, your data is safe and sound, purr-poseful for notifications and bookings!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the cat sit next to the computer? Because it wanted to keep an eye on the mouse!",
+        "Why did the dog sit in the shade? Because he didn't want to be a hot dog!",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "I was having dinner with Garry Kasporov (world chess champion) and there was a check tablecloth. It took him two hours to pass me the salt.",
+        "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "I used to play piano by ear, but now I use my hands."
+      ]
+    }
+  ]
+}
