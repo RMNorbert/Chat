@@ -6,9 +6,11 @@ app = Flask(__name__)
 
 @app.post("/predict")
 def predict():
-    text = request.get_json()
+    request_body = request.get_json()
+    cat_personality = request_body['cat']
+    text = request_body['message']
     if text is not None or '':
-        response = get_response(text)
+        response = get_response(text, cat_personality)
         message = {"answer": response}
         return jsonify(message)
     else:
@@ -17,3 +19,4 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
