@@ -7,6 +7,7 @@ app = Flask(__name__)
 @app.post("/predict")
 def predict():
     request_body = request.get_json()
+    print(request_body)
     cat_personality = request_body['cat']
     text = request_body['message']
     if text is not None or '':
@@ -18,5 +19,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
     
