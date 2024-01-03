@@ -59,6 +59,7 @@
         "What is the profile of the webpage?",
         "What do you do?",
         "What are you offer",
+        "What are the services",
         "What service",
         "What offer"
       ],
@@ -91,11 +92,13 @@
       "tag": "search",
       "patterns": [
         "How can I search for any clinic?",
-        "Hot to search ?",
+        "How to search ?",
         "Can I search?",
-        "Where can I find clinic's?",
-        "Where can I find the dentist I am looking for?",
+        "Where can I find clinic?",
+        "Where can I find dentists?",
+        "I am looking for",
         "Can I search for the dentists as well?",
+        "Can I search for",
         "I want to find",
         "I want to find a dentist"
       ],
@@ -113,14 +116,18 @@
         "How to book an appointment?",
         "Can I book an appointment?",
         "Where can I book appointments?",
-        "Where to book appointment?"
+        "Where to book appointment?",
+        "How an appointment?",
+        "Where to book?",
+        "Book appointment",
+        "How appointment"
       ],
       "responses": [
-       "Meow, after logging in, pounce on the card to reveal clinic secrets and book your spot!",
-       "Purr, choose the card and make your appointment purr-fectly!",
-       "Meow meow, the card holds the keys to clinic wonders – book with a click!",
-       "Purr purr, card in, appointment out – it's that simple!",
-       "Meow, time to book, just pick the card you desire!"
+       "Meow, after logging in, pounce on the clinic to reveal clinic secrets and book your spot!",
+       "Purr, choose the clinic and make your appointment purr-fectly!",
+       "Meow meow, the searches holds the keys to clinic wonders – then book with a click!",
+       "Purr purr, search a clinic in, appointment out – it's that simple!",
+       "Meow, time to book, just pick the clinic you desire!"
       ]
     },
     {
@@ -141,7 +148,8 @@
       "patterns": [
         "Delete an appointment?",
         "Delete appointment?",
-        "Cancel an appointment?"
+        "Cancel an appointment?",
+        "Remove appointment"
       ],
       "responses": [
         "To hold your appointments under your paws, simply tap the Appointments button. If a clinic meows about any changes, we'll whisker away the details and meow at you!",
@@ -169,8 +177,11 @@
     {
       "tag": "register",
       "patterns": [
-        "What data do you need ?",
-        "Can I login with my Gmail ?"
+        "What data do you need?",
+        "Can I login with my gmail?",
+        "Data collected",
+        "Collected data",
+        "Gmail"
       ],
       "responses": [
         "You can meow in with Gmail or register an account with an email by clicking on the register button. Fill out the registration form, and your data will be our little secret, used only for notifications and booking purr-poses!",
