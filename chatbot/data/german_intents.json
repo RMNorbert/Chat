@@ -1,0 +1,197 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hallo",
+        "Hey",
+        "Wie geht es dir",
+        "Ist jemand da?",
+        "Hallo",
+        "Guten Tag",
+        "Willkommen",
+        "Guten Abend",
+        "Guten Nachmittag"
+      ],
+      "responses": [
+        "Hallo :-)",
+        "Hallo, danke für deinen Besuch",
+        "Hallo, was kann ich für dich tun?",
+        "Hallo, wie kann ich helfen?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tschüss",
+        "Bis später",
+        "Auf Wiedersehen",
+        "Einen schönen Tag noch"
+      ],
+      "responses": [
+        "Bis später, danke für deinen Besuch",
+        "Einen schönen Tag noch",
+        "Tschüss! Komm bald wieder."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Danke",
+        "Vielen Dank",
+        "Das ist hilfreich",
+        "Vielen Dank!",
+        "Das ist gut zu wissen"
+      ],
+      "responses": [
+        "Gerne!",
+        "Jederzeit!",
+        "Mit Vergnügen",
+        "Bitte schön"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "Welche Dienstleistungen?",
+        "Welche Arten von Dienstleistungen gibt es?",
+        "Was bietest du an?",
+        "Was ist das Profil der Webseite?",
+        "Was machst du?",
+        "Was bietet ihr an",
+        "Was sind die Dienstleistungen",
+        "Welcher Service",
+        "Welches Angebot"
+      ],
+      "responses": [
+        "Wir bieten eine Online-Plattform zum Suchen von Zahnkliniken und zum Buchen von Terminen in diesen an",
+        "Wir können Ihnen bei der Suche und Buchung von Terminen für Zahnkliniken helfen"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Akzeptieren Sie Kreditkarten?",
+        "Akzeptieren Sie Mastercard?",
+        "Kann ich mit Paypal bezahlen?",
+        "Nehmen Sie nur Bargeld?",
+        "Ist es kostenlos?",
+        "Muss ich für irgendetwas bezahlen?",
+        "Was kostet es?",
+        "Gibt es eine Gebühr?",
+        "Muss ich für irgendetwas bezahlen?"
+      ],
+      "responses": [
+        "Wir haben derzeit keinen Service, für den eine Zahlung erforderlich ist, aber in Zukunft werden wir VISA, Mastercard und Paypal akzeptieren",
+        "Es gibt nichts, wofür Sie bezahlen müssen",
+        "Unsere Dienstleistungen sind für alle kostenlos"
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "Wie kann ich nach einer Klinik suchen?",
+        "Wie suche ich?",
+        "Kann ich suchen?",
+        "Wo finde ich eine Klinik?",
+        "Wo finde ich Zahnärzte?",
+        "Ich suche nach",
+        "Kann ich auch nach Zahnärzten suchen?",
+        "Kann ich nach",
+        "Ich möchte finden",
+        "Ich möchte einen Zahnarzt finden"
+      ],
+      "responses": [
+        "Sie müssen sich zuerst einloggen, um nach Kliniken mit dem Button Klinik suchen oder nach Zahnärzten mit dem Button Zahnarzt suchen zu suchen",
+        "Nachdem Sie sich eingeloggt haben, können Sie nach Zahnärzten und Kliniken mit den entsprechenden Buttons suchen"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "Wie kann ich einen Termin buchen?",
+        "Wie buche ich einen Termin?",
+        "Kann ich einen Termin buchen?",
+        "Wo kann ich Termine buchen?",
+        "Wo buche ich Termine?",
+        "Wie einen Termin?",
+        "Wo buchen?",
+        "Termin buchen",
+        "Wie Termin"
+      ],
+      "responses": [
+        "Nachdem Sie sich eingeloggt haben, müssen Sie auf die Karte klicken, die die Klinik oder den Zahnarzt repräsentiert, um Informationen über die Klinik zu laden und einen Termin zu buchen",
+        "Um einen Termin zu buchen, müssen Sie sich einloggen und die Karte auswählen, die die Klinik oder den Zahnarzt repräsentiert"
+      ]
+    },
+    {
+      "tag": "profile",
+      "patterns": [
+        "Mein Profil löschen?",
+        "Registrierung löschen?",
+        "Meine Registrierung abbrechen?"
+      ],
+      "responses": [
+        "Um Ihr Profil zu löschen, klicken Sie auf die Schaltfläche Profil, die angezeigt wird, wenn Sie den Mauszeiger auf die angezeigte E-Mail-Adresse bewegen",
+        "Sie können Ihr Profil löschen, indem Sie die Maus über Ihre E-Mail-Adresse bewegen, auf die Schaltfläche Profil klicken und auf Konto löschen klicken"
+      ]
+    },
+    {
+      "tag": "delete",
+      "patterns": [
+        "Einen Termin löschen?",
+        "Termin löschen?",
+        "Einen Termin absagen?",
+        "Termin entfernen"
+      ],
+      "responses": [
+        "Sie können Ihre Termine verwalten, indem Sie auf die Schaltfläche Termine klicken. Bei Änderungen an den Verfügbarkeitszeiten einer Klinik werden die betroffenen Termine automatisch verwaltet, und wir senden Ihnen eine Benachrichtigung darüber",
+        "Um gebuchte Termine zu verwalten, klicken Sie auf die Schaltfläche Termine. Bei klinikbezogenen Änderungen erhalten die betroffenen Kunden eine Benachrichtigung, und die Termine werden automatisch von uns verwaltet"
+      ]
+    },
+    {
+      "tag": "clinic",
+      "patterns": [
+        "Klinik registrieren?",
+        "Eine Klinik löschen?",
+        "Urlaub eintragen?",
+        "Urlaub eintragen?"
+      ],
+      "responses": [
+        "Nur registrierte Zahnärzte können Kliniken erstellen und verwalten, nachdem sie sich eingeloggt haben",
+        "Sie müssen sich als Zahnarzt registrieren, um Kliniken zu verwalten"
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "Welche Daten benötigen Sie?",
+        "Kann ich mich mit meiner Gmail anmelden?",
+        "Gesammelte Daten",
+        "Gesammelte Daten",
+        "Gmail"
+      ],
+      "responses": [
+        "Sie können sich mit Gmail anmelden oder ein Konto mit einer E-Mail registrieren, indem Sie auf die Schaltfläche Registrieren klicken und das Registrierungsformular ausfüllen. Die für die Registrierung benötigten Daten werden für Benachrichtigungen und Buchungsidentifikationen verwendet. Keine Daten werden für Dritte bereitgestellt oder verwendet.",
+        "Sie können sich mit Gmail anmelden oder sich mit einer E-Mail registrieren. Wir benötigen Ihre Daten nur für Benachrichtigungen und Buchungsidentifikationen."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Erzähl mir einen Witz!",
+        "Erzähl mir etwas Lustiges!",
+        "Kennst du einen Witz?"
+      ],
+      "responses": [
+        "Warum hat der Hipster seinen Mund verbrannt? Er hat den Kaffee getrunken, bevor er cool war.",
+        "Was hat der Bison gesagt, als sein Sohn aufs College ging? Bison.",
+        "Warum vertrauen Wissenschaftler Atomen nicht? Weil sie alles zusammensetzen!",
+        "Parallele Linien haben so viel gemeinsam. Es ist schade, dass sie sich nie treffen werden.",
+        "Hast du von dem Mathematiker gehört, der Angst vor negativen Zahlen hat? Er wird alles tun, um sie zu vermeiden.",
+        "Warum hat der Vogelscheuche einen Preis gewonnen? Weil er in seinem Fachgebiet herausragend war!",
+        "Ich habe früher Klavier nach Gehör gespielt, aber jetzt benutze ich meine Hände."
+      ]
+    }
+  ]
+}
